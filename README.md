@@ -11,7 +11,8 @@ Implementei a segunda tela do design e aqui tem um [vídeo](https://youtu.be/uma
 </p>
  
 ## Vídeo
-[Vídeo no YouTube](https://youtu.be/Go_eOahG-dQ)
+- [Vídeo no YouTube](https://youtu.be/Go_eOahG-dQ)
+- [Vídeo no YouTube](https://youtu.be/dwkuI_izvP4) - Atualização com matchedGeometryEffect no iOS 14
 
 ## Requisitos
 - iOS 13

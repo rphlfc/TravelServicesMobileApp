@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectedItem: Place! = nil
+    @State var showDetails = false
+    @Namespace var animation
+    
     var body: some View {
-        HomeView()
+        ZStack {
+            HomeView(selectedItem: $selectedItem, showDetails: $showDetails, animation: animation)
+            
+            if selectedItem != nil && showDetails {
+                DetailsView(selectedItem: $selectedItem, showDetails: $showDetails, animation: animation)
+            }
+        }
     }
 }
 

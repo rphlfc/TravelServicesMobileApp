@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		645D4FE62544664D006664E5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D4FE52544664C006664E5 /* Place.swift */; };
+		645D4FEE25447079006664E5 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D4FED25447079006664E5 /* TopView.swift */; };
+		645D4FF12544708D006664E5 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D4FF02544708D006664E5 /* SearchView.swift */; };
+		645D4FF4254470C8006664E5 /* PopularTravelersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D4FF3254470C8006664E5 /* PopularTravelersView.swift */; };
 		64F4B3F1250842BF00650E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B3F0250842BF00650E1B /* AppDelegate.swift */; };
 		64F4B3F3250842BF00650E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B3F2250842BF00650E1B /* SceneDelegate.swift */; };
 		64F4B3F5250842BF00650E1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B3F4250842BF00650E1B /* ContentView.swift */; };
@@ -14,12 +18,16 @@
 		64F4B3FA250842C100650E1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F4B3F9250842C100650E1B /* Preview Assets.xcassets */; };
 		64F4B3FD250842C100650E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F4B3FB250842C100650E1B /* LaunchScreen.storyboard */; };
 		64F4B40525085A4F00650E1B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64F4B40425085A4F00650E1B /* README.md */; };
-		64F7CDE02516561100A9440F /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F7CDDF2516561100A9440F /* NewView.swift */; };
+		64F7CDE02516561100A9440F /* AllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F7CDDF2516561100A9440F /* AllView.swift */; };
 		64F7CDE5251659E800A9440F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F7CDE4251659E800A9440F /* DetailsView.swift */; };
 		64F7CDE9251671E600A9440F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F7CDE8251671E600A9440F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		645D4FE52544664C006664E5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		645D4FED25447079006664E5 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		645D4FF02544708D006664E5 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		645D4FF3254470C8006664E5 /* PopularTravelersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTravelersView.swift; sourceTree = "<group>"; };
 		64F4B3ED250842BF00650E1B /* TravelServicesMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelServicesMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F4B3F0250842BF00650E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F4B3F2250842BF00650E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,9 +37,9 @@
 		64F4B3FC250842C100650E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64F4B3FE250842C100650E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F4B40425085A4F00650E1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		64F7CDDF2516561100A9440F /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewView.swift; path = TravelServicesMobileApp/NewView.swift; sourceTree = SOURCE_ROOT; };
+		64F7CDDF2516561100A9440F /* AllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllView.swift; path = TravelServicesMobileApp/Views/Home/AllView.swift; sourceTree = SOURCE_ROOT; };
 		64F7CDE4251659E800A9440F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
-		64F7CDE8251671E600A9440F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = TravelServicesMobileApp/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		64F7CDE8251671E600A9440F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = TravelServicesMobileApp/Views/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		645D4FE3254465E1006664E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				645D4FE52544664C006664E5 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		645D4FEB25447029006664E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64F7CDE8251671E600A9440F /* HomeView.swift */,
+				64F7CDDF2516561100A9440F /* AllView.swift */,
+				645D4FF3254470C8006664E5 /* PopularTravelersView.swift */,
+				645D4FF02544708D006664E5 /* SearchView.swift */,
+				645D4FED25447079006664E5 /* TopView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		645D4FF82544716A006664E5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				64F7CDE4251659E800A9440F /* DetailsView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		64F4B3E4250842BF00650E1B = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +101,7 @@
 		64F4B3EF250842BF00650E1B /* TravelServicesMobileApp */ = {
 			isa = PBXGroup;
 			children = (
+				645D4FE3254465E1006664E5 /* Model */,
 				64F7CDDE251655CD00A9440F /* Views */,
 				64F4B3F0250842BF00650E1B /* AppDelegate.swift */,
 				64F4B3F2250842BF00650E1B /* SceneDelegate.swift */,
@@ -88,9 +125,8 @@
 		64F7CDDE251655CD00A9440F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				64F7CDE8251671E600A9440F /* HomeView.swift */,
-				64F7CDDF2516561100A9440F /* NewView.swift */,
-				64F7CDE4251659E800A9440F /* DetailsView.swift */,
+				645D4FF82544716A006664E5 /* Detail */,
+				645D4FEB25447029006664E5 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,7 +158,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Raphael Cerqueira";
 				TargetAttributes = {
 					64F4B3EC250842BF00650E1B = {
@@ -167,11 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F7CDE02516561100A9440F /* NewView.swift in Sources */,
+				64F7CDE02516561100A9440F /* AllView.swift in Sources */,
+				645D4FF12544708D006664E5 /* SearchView.swift in Sources */,
 				64F7CDE5251659E800A9440F /* DetailsView.swift in Sources */,
 				64F4B3F1250842BF00650E1B /* AppDelegate.swift in Sources */,
 				64F7CDE9251671E600A9440F /* HomeView.swift in Sources */,
 				64F4B3F3250842BF00650E1B /* SceneDelegate.swift in Sources */,
+				645D4FE62544664D006664E5 /* Place.swift in Sources */,
+				645D4FF4254470C8006664E5 /* PopularTravelersView.swift in Sources */,
+				645D4FEE25447079006664E5 /* TopView.swift in Sources */,
 				64F4B3F5250842BF00650E1B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +256,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -276,6 +317,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -312,6 +354,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TravelServicesMobileApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TravelServicesMobileApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +374,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TravelServicesMobileApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TravelServicesMobileApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

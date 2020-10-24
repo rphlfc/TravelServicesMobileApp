@@ -9,26 +9,28 @@
 import SwiftUI
 
 struct DetailsView: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    
-    var image: String
-    var title: String
+    @Binding var selectedItem: Place!
+    @Binding var showDetails: Bool
+    var animation: Namespace.ID
     
     var body: some View {
         NavigationView {
             ZStack {
                 GeometryReader { geo in
-                    Image(image)
+                    Image(selectedItem.image)
                         .resizable()
                         .scaledToFill()
                         .frame(width: geo.size.width)
                         .edgesIgnoringSafeArea(.all)
+                        .matchedGeometryEffect(id: selectedItem.id, in: animation)
                 }
                 
                 VStack(alignment: .leading) {
                     HStack {
                         Button(action: {
-                            self.presentationMode.wrappedValue.dismiss()
+                            withAnimation {
+                                showDetails.toggle()
+                            }
                         }, label: {
                             Image(systemName: "chevron.left")
                                 .frame(width: 40, height: 40)
@@ -50,7 +52,7 @@ struct DetailsView: View {
                     
                     Spacer()
                     
-                    Text(title)
+                    Text(selectedItem.name)
                         .font(.system(size: 28, weight: .bold))
                         .foregroundColor(Color.white)
                     
@@ -135,8 +137,8 @@ struct InfoView: View {
     }
 }
 
-struct DetailsView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailsView(image: "image1", title: "Swiss Alps")
-    }
-}
+//struct DetailsView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        DetailsView(selectedItem: .constant(places[0]), showDetails: .constant(true))
+//    }
+//}
